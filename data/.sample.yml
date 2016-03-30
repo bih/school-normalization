@@ -1,0 +1,14 @@
+school:
+  type: [Required. Either out of 'university' or 'high-school'.]
+  name: [Full School Name Here. Required. Example: Manchester Metropolitan University]
+  abbreviation: [School Abbreviation. Required. Example: MMU. If you don't have one, remove this line.]
+  url: [School's URL. Required. Example: http://www.mmu.ac.uk]
+normalization:
+  synonyms:
+    - [Remove this line, see examples below. Must be ordered.]
+    - Man Met
+    - Man Met Uni
+    - Manchester Met
+    - Manchester Metropolitan
+    - Manchester Polytechnic
+    - Manchester Polytechnic University

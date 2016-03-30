@@ -1,0 +1,13 @@
+school:
+  type: university
+  name: University of Manchester
+  abbreviation: UOM
+  url: http://www.manchester.ac.uk
+normalization:
+  synonyms:
+    - Manchester
+    - Man Uni
+    - Man University
+    - Manchester Uni
+    - Manchester University
+    - University of Manchester
