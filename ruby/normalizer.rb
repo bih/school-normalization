@@ -20,7 +20,7 @@ module Normalizer
     class NameNotProvidedError < StandardError; end
     class NameNotValidError < StandardError; end
     class NameMustBeCapitalizedError < StandardError; end
-    class AbbreviationMustBeAStringError < StandardError; end
+    class AbbreviationNotValidError < StandardError; end
     class AbbreviationCannotExceed5CharactersError < StandardError; end
     class URLNotProvidedError < StandardError; end
     class URLNotValidError < StandardError; end
@@ -64,7 +64,7 @@ module Normalizer
       abbreviation = @hash[:school][:abbreviation]
 
       if abbreviation
-        raise_error AbbreviationMustBeAStringError unless abbreviation.is_a?(String)
+        raise_error AbbreviationNotValidError unless abbreviation.is_a?(String)
         raise_error AbbreviationCannotExceed5CharactersError unless abbreviation.length < 5
       end
     end
