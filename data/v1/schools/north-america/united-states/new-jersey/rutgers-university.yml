@@ -1,10 +1,11 @@
-school:
-  type: university
-  name: Rutgers University–New Brunswick
-  abbreviation: RU
-  url: http://www.rutgers.edu
-normalization:
-  alternatives:
+---
+:school:
+  :type: university
+  :name: Rutgers University–New Brunswick
+  :abbreviation: RU
+  :url: http://www.rutgers.edu
+:normalization:
+  :alternatives:
     - Rutgers
     - Rutgers University
     - Rutgers University, New Brunswick
