@@ -7,9 +7,11 @@ See some examples:
 - [University of Manchester](data/v1/schools/europe/united-kingdom/england/university-of-manchester.yml)
 - [Manchester Metropolitan University](data/v1/schools/europe/united-kingdom/england/manchester-metropolitan-university.yml)
 
-A few things on the to-do:
+Once you have done it, run the following command to use our linter and compile it to JSON:
 
-- Add some tests to `ruby/spec/` for the Ruby parser.
-- Write this guide.
-- Give it a license.
-- Create a process around adding schools and managing the repository.
+```
+$ cd ruby/
+$ rspec --color
+$ ruby export_to_dist.rb
+$ cat ../dist/schools.to_json
+```
