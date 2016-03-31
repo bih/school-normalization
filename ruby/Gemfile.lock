@@ -48,6 +48,7 @@ GEM
     tilt (2.0.2)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    url (0.3.2)
 
 PLATFORMS
   ruby
@@ -58,6 +59,7 @@ DEPENDENCIES
   rspec
   sinatra
   sinatra-reloader
+  url
 
 BUNDLED WITH
    1.11.2
