@@ -1,0 +1,14 @@
+---
+:school:
+  :type: university
+  :name: Manchester Metropolitan University
+  :abbreviation: MMU
+  :url: http://www.mmu.ac.uk
+:normalization:
+  :alternatives:
+  - Man Met
+  - Man Met Uni
+  - Manchester Met
+  - Manchester Metropolitan
+  - Manchester Polytechnic
+  - Manchester Polytechnic University
