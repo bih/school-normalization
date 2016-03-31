@@ -4,7 +4,7 @@ school:
   abbreviation: MMU
   url: http://www.mmu.ac.uk
 normalization:
-  synonyms:
+  alternatives:
     - Man Met
     - Man Met Uni
     - Manchester Met

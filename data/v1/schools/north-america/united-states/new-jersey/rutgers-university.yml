@@ -4,7 +4,7 @@ school:
   abbreviation: RU
   url: http://www.rutgers.edu
 normalization:
-  synonyms:
+  alternatives:
     - Rutgers
     - Rutgers University
     - Rutgers University, New Brunswick

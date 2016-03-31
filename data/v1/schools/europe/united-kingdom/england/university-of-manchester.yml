@@ -4,7 +4,7 @@ school:
   abbreviation: UOM
   url: http://www.manchester.ac.uk
 normalization:
-  synonyms:
+  alternatives:
     - Manchester
     - Man Uni
     - Man University

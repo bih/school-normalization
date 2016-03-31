@@ -4,7 +4,7 @@ school:
   abbreviation: [School Abbreviation. Required. Example: MMU. If you don't have one, remove this line.]
   url: [School's URL. Required. Example: http://www.mmu.ac.uk]
 normalization:
-  synonyms:
+  alternatives:
     - [Remove this line, see examples below. Must be ordered.]
     - Man Met
     - Man Met Uni
